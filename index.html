@@ -15,91 +15,87 @@
           <nav>
               <ul>
                   <li>
-                      <a href="#">Search Engine Optimization</a>
+                      <a href="#AboutMe">About Me</a>
                   </li>
                   <li>
-                      <a href="#">Online Reputation Management</a>
+                      <a href="#Selected Works">Selected Works</a>
                   </li>
                   <li>
-                      <a href="#s">Social Media Marketing</a>
+                      <a href="#Contact">Contact</a>
                   </li>
               </ul>
           </nav>
       </header>
         <main>
           <section class="row">
-            <div class="heading">
+            <div class="heading" id="AboutMe">
               <h2>About Me</h2>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dignissimos nobis omnis perferendis iusto expedita vitae, sapiente eaque quo, temporibus eveniet. Eius architecto nesciunt aliquid, porro dolores facere odio id.
             </p>
-          <section class="row">
-            <div class="heading">
+          <section class="row" id="contentRow">
+            <div class="heading" id="Selected Works">
               <h2>Selected Works</h2>
             </div>
-            <figure class="card code-card">
-              <h2 class="card-header">Flexbox Row</h2>
-              <div class="card-body">
-                <p>Use these three properties to create a Flexbox row layout.</p>
-              </div>
-            </figure>
+            <div class=content id="allContent">
+              <article id="heroContentRow">
+                <figure class="card code-card" id="heroContent">
+                  <h2 class="card-header"><a href="#">Data Analysis</a></h2>
+                  <div class="imagewrap"><a href="#">
+                  <img src="assets/images/hero.jpg" alt="Stock Market UI">
+                </a></div>
+                </figure>
+              </article>
+              <article class="regularContent">
+                <figure class="card code-card">
+                  <h2 class="card-header"><a href="#">AI Technology</a></h2>
+                  <div class="imagewrap"><a href="#">
+                  <img src="assets/images/AI_circuit.jpg" alt="AI Circuit">
+                </a></div>
+                </figure>
+                <figure class="card code-card">
+                  <h2 class="card-header"><a href="#">Big Data</a></h2>
+                  <div class="imagewrap"><a href="#">
+                  <img src="assets/images/motherboardHand.jpg" alt="Motherboard Hand">
+                </a></div>
+                </figure>
+              </article>
+              <article class="regularContent">
+                <figure class="card code-card">
+                  <h2 class="card-header"><a href="#">Native App</a></h2>
+                  <div class="imagewrap"><a href="#">
+                  <img src="assets/images/Native_App.jpg" alt="App on iPad">
+                </a></div>
+                </figure>
+                <figure class="card code-card">
+                  <h2 class="card-header"><a href="#">UI/UX Design</a></h2>
+                  <div class="imagewrap"><a href="#">
+                  <img src="assets/images/UI_Design.jpg" alt="UI/UX Design">
+                </a></div>
+                </figure>
+              </article>
+              </article>
+            </div>
           </section>  
-          <section class="row">
-            <div class="card-column">
-              <figure class="card code-card">
-                <h2 class="card-header">Flexbox Column</h2>
-                <div class="card-body">
-                  <p>Use this to create a Flexbox column layout.</p>
-                </div>
-              </figure>
-            </div>
-      
-            <div class="card-column">
-              <figure class="card code-card">
-                <h2 class="card-header">CSS Grid Layout</h2>
-                <div class="card-body">
-                  <p>Build a 12-column layout using CSS Grid</p>
-                </div>
-                <!-- <pre class="code-block"><code>.grid {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(12, 1fr);
-      }</code></pre> -->
-              </figure>
-            </div>
-          </section>
-          <section class="row">
-            <div class="card-column">
-              <figure class="card code-card">
-                <h2 class="card-header">Linear Gradients</h2>
-                <div class="card-body">
-                  <p>This will create a background linear gradient from top to bottom.</p>
-                </div>
-              </figure>
-            </div>
-            <div class="card-column">
-              <figure class="card code-card">
-                <h2 class="card-header">Box Transition Glow</h2>
-                <div class="card-body">
-                  <p>Use transition and box shadows to glow on hover.</p>
-                </div>
-              </figure>
-            </div>
-      
-            <div class="card-column">
-              <figure class="card code-card">
-                <h2 class="card-header">Overlay Card with Title</h2>
-                <div class="card-body">
-                  <p>Use position properties and negative margins to raise elements higher than their natural starting point.
-                  </p>
-                </div>
-              </figure>
-            </div>
-          </section>
         </main>
       
         <footer>
-          <h3>Made with <span role="img" aria-label="heart">❤️</span> and CSS</h3>
+          <nav id="Contact">
+            <ul>
+                <li>
+                  <img id="profilePic" src="assets/images/profilePic.png" alt="Zack Campbell">
+                </li>
+                <li>
+                    <a href="#">858.775.4873</a>
+                </li>
+                <li>
+                    <a href="mailto:zacharyacampbell1@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/zax5021/">GitHub</a>
+                </li>
+            </ul>
+        </nav>
         </footer>
       
       </body>
